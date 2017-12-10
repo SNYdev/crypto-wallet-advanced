@@ -10,8 +10,8 @@ class dbRepository extends GeneralCryptoWalletAdvanced
         parent::__construct();
     }
 
-    public function getByName(){
+    public function getByName()
+    {
         $resp = $this->dbObject->query("SELECT * FROM testtable")->fetch();
-        var_dump($resp);
     }
 }

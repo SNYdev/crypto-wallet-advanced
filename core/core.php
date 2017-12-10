@@ -7,4 +7,3 @@ use CryptoWalletAdvancedRepoDatabase as CwaDatabaseQueries;
 
 $cryptoWalletGeneralSetting = new CwaGeneralConf();
 $cryptoWalletGeneralDatabase = new CwaDatabaseQueries\dbRepository();
-var_dump($cryptoWalletGeneralDatabase->getByName());
