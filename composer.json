@@ -1,0 +1,24 @@
+{
+    "name": "snydev/cryptowalletadvanced",
+    "description": "Array for crypto wallet with smart options for long terms",
+    "authors": [
+      {
+        "name": "Yanis Sahnoune",
+        "email": "yanis.sahnoune.dev@gmail.com"
+      }
+    ],
+
+    "require": {
+        "twbs/bootstrap": "4.0.0-beta.2",
+        "doctrine/orm": "2.5.13"
+    },
+
+    "autoload": {
+      "classmap": [
+        "core/GeneralCryptoWalletAdvanced.php"
+      ],
+      "psr-4": {
+        "CryptoWalletAdvanced\\":"core/"
+      }
+    }
+}
