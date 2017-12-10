@@ -3,7 +3,8 @@
 require __DIR__."/../vendor/autoload.php";
 
 use CryptoWalletAdvanced\GeneralCryptoWalletAdvanced as CwaGeneralConf;
+use CryptoWalletAdvancedRepoDatabase as CwaDatabaseQueries;
 
 $cryptoWalletGeneralSetting = new CwaGeneralConf();
-
-var_dump($cryptoWalletGeneralSetting);
+$cryptoWalletGeneralDatabase = new CwaDatabaseQueries\dbRepository();
+var_dump($cryptoWalletGeneralDatabase->getByName());

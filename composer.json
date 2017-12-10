@@ -18,7 +18,10 @@
         "core/GeneralCryptoWalletAdvanced.php"
       ],
       "psr-4": {
-        "CryptoWalletAdvanced\\":"core/"
+        "CryptoWalletAdvanced\\":"core/",
+        "CryptoWalletAdvancedRepo\\":"core/repository/",
+        "CryptoWalletAdvancedRepoApi\\":"core/repository/api/",
+        "CryptoWalletAdvancedRepoDatabase\\":"core/repository/database"
       }
     }
 }
