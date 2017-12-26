@@ -37,17 +37,10 @@ class GeneralCryptoWalletAdvanced
     private function getDbConnexion($host, $name, $user, $pass)
     {
         try{
-
             return new PDO('mysql:host='.$host.';dbname='.$name, $user, $pass);
-
         } catch (\PDOException $oException){
             return __FILE__." : Connexion not working ". $oException->getMessage();
         }
-    }
-
-    private function getApiConnexion()
-    {
-
     }
 
 }
