@@ -1,2 +1,5 @@
+.DS_Store
 vendor
 core/conf
+core/log/access.log
+core/log/error.log
