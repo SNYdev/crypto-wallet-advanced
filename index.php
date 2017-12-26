@@ -17,21 +17,52 @@ require_once __DIR__."/core/core.php";
 <body>
 
 <div class="container-flex">
-    <div class="content-flex-auto content-flex-width-3" style="background-color: #3498db;">
-        <p>
-            TITRE 1
-        </p>
-    </div>
-    <div class="content-flex-auto content-flex-width-3" style="background-color: #2ecc71;">
-        <p>
-            TITRE 2
-        </p>
-    </div>
-    <div class="content-flex-auto content-flex-width-3" style="background-color: #e74c3c;">
-        <p>
-            TITRE 3
-        </p>
-    </div>
+    <table class="table table-striped">
+        <thead>
+        <tr class="">
+            <th scope="col"><?php ?></th>
+            <th scope="col">name</th>
+            <th scope="col">curPrice</th>
+            <th scope="col">curBenef</th>
+            <th scope="col">Day/Month/Max</th>
+            <th scope="col">Total</th>
+
+            <th scope="col">DAY/BTC</th>
+            <th scope="col">DAY/MONTH/MAX</th>
+
+            <th scope="col">coins after sell</th>
+            <th scope="col">% difference</th>
+            <th scope="col">coins difference</th>
+            <th scope="col">dollar difference</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+        </tr>
+        </tbody>
+    </table>
 </div>
 
 <footer>
