@@ -21,7 +21,8 @@
         "CryptoWalletAdvanced\\":"core/",
         "CryptoWalletAdvancedRepo\\":"core/repository/",
         "CryptoWalletAdvancedRepoApi\\":"core/repository/api/",
-        "CryptoWalletAdvancedRepoDatabase\\":"core/repository/database"
+        "CryptoWalletAdvancedRepoDatabase\\":"core/repository/database",
+        "CryptoWalletAdvancedLogs\\":"core/log"
       }
     }
 }
